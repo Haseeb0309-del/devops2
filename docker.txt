@@ -1,0 +1,6 @@
+FROM python 3.8
+WORKDIR/app
+COPY_
+RUN PIP install_no_cache_dir_requirement.txt
+Expose:5000
+CMD("python","app.py")
